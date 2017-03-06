@@ -16,8 +16,12 @@ docker run -d -p 8080:8080 --name rap --link redis3:redis3 \
 -Dredis.host=redis3 \
 -Dredis.index=0 \
 -Djava.security.egd=file:/dev/urandom" \
-registry-internal.cn-hangzhou.aliyuncs.com/caryyu/rap:0.14.3
+registry.cn-hangzhou.aliyuncs.com/caryyu/rap:0.14.3
 ```
+##阿里云外网镜像地址
+registry.cn-hangzhou.aliyuncs.com/caryyu/rap:0.14.3
+##阿里云内网镜像地址
+registry.cn-hangzhou.aliyuncs.com/caryyu/rap:0.14.3
 
 #RAP源码说明
 官方RAP的0.14.3不支持外部系统变量的覆盖，我Fork了一份并在分支v0.14.3作出了更改。
