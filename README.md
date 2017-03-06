@@ -5,7 +5,7 @@
 docker run -d --name redis3 redis:3.2
 ```
 #数据库说明
-配置数据的方法请参考RAP官方的部署手册数据库篇。
+配置数据库的方法请参考RAP官方的部署手册配置数据库篇，点击查看[Centos中文部署文档配置数据库](https://github.com/thx/RAP/wiki/deploy_on_centos_cn)
 #启动容器
 ```
 docker run -d -p 8080:8080 --name rap --link redis3:redis3 \
